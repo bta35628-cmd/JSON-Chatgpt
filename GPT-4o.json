@@ -1,13 +1,18 @@
 {
+  "api": {
+    "url": "https://api.openai.com/v1/chat/completions",
+    "method": "POST"
+  },
   "model": "gpt-4o",
+  "api_key": "YOUR_OPENAI_API_KEY",
   "messages": [
     {
       "role": "system",
-      "content": "Bạn là một trợ lý AI hữu ích."
+      "content": "Bạn là ChatGPT. Trả lời bằng tiếng Việt."
     },
     {
       "role": "user",
-      "content": "Xin chào!"
+      "content": "{{prompt}}"
     }
   ],
   "temperature": 0.7,
