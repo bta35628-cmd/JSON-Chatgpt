@@ -1,8 +1,10 @@
-curl -X POST https://api.kilo.ai/api/openrouter/chat/completions \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "kilo-auto/free",
-    "messages": [{"role": "user", "content": "Hello!"}],
-    "max_tokens": 1024,
-    "stream": true
-  }'
+{
+  "model": "@cf/zai-org/glm-5.2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Xin chào!"
+    }
+  ],
+  "stream": false
+}
