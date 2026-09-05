@@ -1,11 +1,8 @@
-{
-  "model": "kilo-auto/free",
-  "messages": [
-    {
-      "role": "user",
-      "content": "Xin chào"
-    }
-  ],
-  "max_tokens": 100,
-  "stream": false
-}
+curl -X POST https://api.kilo.ai/api/openrouter/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "kilo-auto/free",
+    "messages": [{"role": "user", "content": "Hello!"}],
+    "max_tokens": 1024,
+    "stream": true
+  }'
