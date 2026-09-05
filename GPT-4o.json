@@ -3,9 +3,9 @@
   "messages": [
     {
       "role": "user",
-      "content": "Xin chào!"
+      "content": "hi"
     }
   ],
-  "stream": false,
-  "max_tokens": 100
+  "max_tokens": 64,
+  "stream": true
 }
