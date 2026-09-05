@@ -1,10 +1,11 @@
 {
-  "model": "@cf/zai-org/glm-5.2",
+  "model": "animica-chat-small",
   "messages": [
     {
       "role": "user",
       "content": "Xin chào!"
     }
   ],
-  "stream": false
+  "stream": false,
+  "max_tokens": 100
 }
